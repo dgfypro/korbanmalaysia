@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link id="codyframe" rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- browsers not supporting CSS variables -->
+  <script>
+    if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
+  </script>
+  <title>Korbanmalysia</title>
+</head>
+<body>
+  <!-- start of flexi navbar -->
+  <header class="f-header position-fixed js-f-header">
+    <div class="f-header__mobile-content container max-width-lg">
+      <a href="#0" class="f-header__logo">
+        <img class="logo" src="assets/img/logowhite.png" data-aos="fade-up">
+      </a>
+  
+      <button class="reset anim-menu-btn js-anim-menu-btn f-header__nav-control js-tab-focus" aria-label="Toggle menu">
+        <i class="anim-menu-btn__icon anim-menu-btn__icon--close" aria-hidden="true"></i>
+      </button>
+    </div>
+  
+    <div class="f-header__nav" role="navigation">
+      <div class="f-header__nav-grid justify-between@md container max-width-lg">
+        <ul class="f-header__list flex-grow flex-basis-0 justify-end@md">
+          <li class="f-header__item">
+            <a href="#0" class="f-header__link nav-title">
+              <span>PENDAFTARAN</span>
+              <svg class="f-header__dropdown-icon icon" aria-hidden="true" viewBox="0 0 12 12"><path d="M6,9l4-5H2Z"/></svg>
+            </a>
+  
+            <ul class="f-header__dropdown nav-sub">
+              <li><a href="#0" class="f-header__dropdown-link nav-subtitle">KORBAN</a></li>
+              <li><a href="#0" class="f-header__dropdown-link nav-subtitle">AQIQAH</a></li>
+            </ul>
+          </li>
+          <li class="f-header__item"><a href="#0" class="f-header__link nav-title">MENGENAI KAMI</a></li>
+        </ul>
+  
+        <div class="f-header__nav-logo-wrapper flex-grow flex-basis-0 justify-center@md">
+          <a href="" class="f-header__logo">
+            <img class="logo" src="assets/img/logowhite.png" data-aos="fade-up">
+          </a>
+        </div>
+    
+        <ul class="f-header__list flex-grow flex-basis-0 justify-start@md">
+          <li class="f-header__item"><a href="#0" class="f-header__link nav-title">FAQS</a></li>
+          <li class="f-header__item"><a href="#0" class="f-header__link nav-title">HUBUNGI KAMI</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>  
+  <!-- end of flexi navbar -->
+  
+  <!-- start of fullscreen hero -->
+  <section class="hero min-height-100vh flex items-center" style="background-image: url('assets/img/hero.png')">
+    <div class="container max-width-adaptive-sm">
+      <div class="text-center">
+        <div class="text-component margin-bottom-sm" data-aos="fade-up" data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+          <h1 class="title1">PENDAFTARAN KORBAN</br>TELAH DIBUKA</h1>
+          </br>
+          </br>
+          <p class="text1">Stok terhad, tempahan dibuka sehingga 31 Julai sahaja</p>
+        </div>
+        </br>
+        </br>
+        <div class="flex flex-wrap flex-center gap-sm" data-aos="fade-up" data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+        <a href="#" class="btn btn--hero">DAFTAR KORBAN</a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- end of fullscreen hero -->
+
+  <!-- start of section 1 -->
+  <section class="position-relative z-index-1 margin-y-lg">
+    <div class="container max-width-adaptive-md">
+      <div class="grid">
+        <div class="flex items-center col-6@md order-2@md" data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+          <div class="padding-md">
+            <div class="text-component">
+              <h2 class="title2">Jualan terus
+                kepada pelanggan
+                atau ke masjid</h2>
+              <p>Stok tersedia dan pantas.</p>
+            </div>
+          </div>
+        </div>
+  
+        <img data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" 
+        class="block width-100% object-contain col-6@md order-1@md" src="assets/img/cowcircle.png" alt="Image description">
+      </div>
+    </div>
+    <div class="container max-width-adaptive-md">
+      <div class="grid">
+        <div class="flex items-center col-6@md" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" >
+          <div class="padding-md">
+    
+            <div class="text-component">
+              <h2 class="title2">Jualan terus
+                kepada pengedar dan
+                pemborong ke seluruh
+                Malaysia.</h2>
+              <p>Mudah dan jimat.</p>
+            </div>
+          </div>
+        </div>
+  
+        <img data-aos="fade-left"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine" 
+        class="block width-100% object-contain col-6@md" src="assets/img/goatcircle.png" alt="Image description">
+      </div>
+    </div>
+  </section>
+  <!-- end of section 1 -->
+
+  <!-- start of section 2 -->
+  <section class="margin-y-lg">
+    <div class="container max-width-lg">
+      <div class="grid gap-sm">
+      <div class="flex@md flex-column@md col-4@md">
+        <div class="menu1 radius-md padding-md text-center margin-bottom-md" data-aos="fade-up"
+        data-aos-duration="900">
+          <div class="text-component">
+            <h4 class="title1">KORBAN</h4>
+          </div>
+        </div>
+        <div class="flex flex-wrap flex-center gap-sm margin-bottom-md">
+          <a href="#" class="btn btn--menu">DAFTAR SEKARANG</a>
+        </div>
+      </div>
+      <div class="flex@md flex-column@md col-4@md">
+        <div class="menu2 radius-md padding-md text-center margin-bottom-md" data-aos="fade-down"
+        data-aos-duration="900">
+          <div class="text-component">
+            <h4 class="title1">DAGING SEGAR</h4>
+          </div>
+        </div>
+        <div class="flex flex-wrap flex-center gap-sm margin-bottom-md">
+          <a href="#" class="btn btn--menu">BELI SEKARANG</a>
+        </div>
+      </div>
+      <div class="flex@md flex-column@md col-4@md">
+        <div class="menu3 radius-md padding-md text-center margin-bottom-md" data-aos="fade-up"
+        data-aos-duration="900">
+          <div class="text-component">
+            <h4 class="title1">AQIQAH</h4>
+          </div>
+        </div>
+        <div class="flex flex-wrap flex-center gap-sm margin-bottom-md">
+          <a href="#" class="btn btn--menu">DAFTAR SEKARANG</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+ <!-- end of section 2 -->
+
+ <!-- start of carousel -->
+ <section class="margin-y-lg">
+  <div class="margin-bottom-lg">
+    <h2 class="text-center title2">LOKASI AGRO GOMBAK DI SELURUH MALAYSIA</h2>
+  </div>
+  <div class="container max-width-adaptive-lg">
+  <div class="slideshow js-slideshow slideshow--transition-slide slideshow--ratio-16:9" data-swipe="on">
+    <p class="sr-only"></p>
+    
+    <ul class="slideshow__content">
+      
+      <li class="slideshow__item bg js-slideshow__item" style="background-image: url('assets/img/gombakagrokl.png');">
+        <p class='sr-only'>Gombak Agro KL</p>
+      </li>
+      
+      <li class="slideshow__item bg js-slideshow__item" style="background-image: url('assets/img/saujanautama.png');">
+        <p class='sr-only'>Saujana Utama</p>
+      </li>
+      
+      <li class="slideshow__item bg js-slideshow__item" style="background-image: url('assets/img/gombakagrokl.png');">
+        <p class='sr-only'>Gombak Agro KL</p>
+      </li>
+
+      <li class="slideshow__item bg js-slideshow__item" style="background-image: url('assets/img/saujanautama.png');">
+        <p class='sr-only'>Saujana Utama</p>
+      </li>
+      
+    </ul>
+  
+    <ul>
+      <li class="slideshow__control js-slideshow__control">
+        <button class="reset slideshow__btn js-tab-focus">
+          <svg class="icon" viewBox="0 0 32 32"><title>Show previous slide</title><path d="M20.768,31.395L10.186,16.581c-0.248-0.348-0.248-0.814,0-1.162L20.768,0.605l1.627,1.162L12.229,16 l10.166,14.232L20.768,31.395z"></path></svg>
+        </button>
+      </li>
+  
+      <li class="slideshow__control js-slideshow__control">
+        <button class="reset slideshow__btn js-tab-focus">
+          <svg class="icon" viewBox="0 0 32 32"><title>Show next slide</title><path d="M11.232,31.395l-1.627-1.162L19.771,16L9.605,1.768l1.627-1.162l10.582,14.813 c0.248,0.348,0.248,0.814,0,1.162L11.232,31.395z"></path></svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+  </div>
+</section>
+<!-- end of carousel -->
+
+<!-- start of fullscreen section hero -->
+<section class="hero min-height-100vh flex items-center" style="background-image: url('assets/img/hero2-min.png')" data-aos="fade-up"
+data-aos-duration="2000">
+  <div class="container max-width-adaptive-sm">
+    <div class="text-center">
+      <div class="text-component margin-bottom-sm">
+        <h1 class="title1">BAYARAN DEPOSIT</br>YANG RENDAH</h1>
+        </br>
+        </br>
+        <p class="text1">Setiap tempahan akan dikenakan deposit yang rendah iaitu sebanyak RM 50 seekor</p>
+      </div>
+      </br>
+      </br>
+      <div class="flex flex-wrap flex-center gap-sm">
+      <a href="#0" class="btn btn--hero">TEMPAH SEKARANG</a>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end of fullscreen section hero -->
+
+<!-- start of section 1 -->
+<section class="position-relative z-index-1 margin-y-lg">
+  <div class="container max-width-adaptive-md">
+    <div class="grid">
+      <div class="flex items-center col-6@md" data-aos="fade-up"
+      data-aos-offset="400"
+      data-aos-easing="ease-in-sine" >
+        <div class="padding-md">
+  
+          <div class="text-component">
+            <h2 class="title2">LEMBU DIGRED MENGIKUT TIMBANGAN BERAT HIDUP</h2>
+            <p>Lembu yang digred perlu
+              melalui proses timbangan
+              dahulu bagi memastikan size
+              yang dipilih tidak terlalu berbeza
+              antara satu sama lain.</p>
+          </div>
+        </div>
+      </div>
+
+      <img data-aos="fade-down"
+      data-aos-offset="400"
+      data-aos-easing="ease-in-sine" class="block width-100% object-contain col-6@md" src="assets/img/lembutimbang.png" alt="Image description">
+    </div>
+  </div>
+</section>
+<!-- end of section 1 -->
+
+<!-- start of footer -->
+<footer class="main-footer padding-y-lg">
+  <div class="container max-width-lg">
+    <div class="grid gap-lg">
+      <nav class="col-9@lg order-1@lg">
+        <ul class="grid gap-lg">
+          <li class="col-6@xs col-3@md">
+            <h4 class="margin-bottom-sm text-base@md">Korban</h4>
+          </li>
+
+          <li class="col-6@xs col-3@md">
+            <h4 class="margin-bottom-sm text-base@md">Daging Segar</h4>
+          </li>
+
+          <li class="col-6@xs col-3@md">
+            <h4 class="margin-bottom-sm text-base@md">FAQS</h4>
+          </li>
+
+          <li class="col-6@xs col-3@md">
+            <h4 class="margin-bottom-sm text-base@md">Agro Gombak</h4>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  
+    <div class="main-footer__colophon border-top padding-top-xs margin-top-lg">
+      <div class="text-sm text-xs@md color-contrast-medium flex flex-wrap gap-xs">
+        <span>&copy; Gombak Agro</span>
+        <a href="#0" class="color-contrast-high">Terms</a>
+        <a href="#0" class="color-contrast-high">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end of footer -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/component/onscroll.js"></script>
+<script src="assets/js/component/_2_flexi-header.js"></script>
+<script src="assets/js/component/_1_anim-menu-btn.js"></script>
+<script src="assets/js/component/_1_swipe-content.js"></script>
+<script src="assets/js/component/_2_slideshow.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

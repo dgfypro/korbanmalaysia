@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif!important;
+    background-color: #FDFBF5!important
+}
+footer {
+    background-color: #F9EED4;
+}
+header {
+    min-height: 12vh;
+    padding-top: 1em;
+}
+
+.scrolled {
+    background-color: #FDFBF5!important;
+}
+.nav-sub {
+    background-color: #FDFBF5!important;
+}
+.black-text {
+    color: #000000!important;
+    &:hover { 
+        color: #000;
+        background-color: #F9EED4;
+    }
+}
+.nav-title {
+    font-weight: 700;
+    color: #ffffff;
+    &:hover { 
+        color: #000000!important;
+        background-color: #F9EED4;
+    }
+}
+.nav-subtitle {
+    font-weight: 400;
+    color: #000;
+    &:hover { 
+        color: #000!important;
+        background-color: #F9EED4!important;
+    }
+}
+.title1 {
+    font-weight: 700;
+    color: #ffffff;
+}
+.title2 {
+    font-weight: 700;
+    color: #000000;
+}
+.text1 {
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu1 {
+    background-image: url(../img/korban1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #d36c53;
+    background-position: center;
+    min-height: 600px;
+    
+
+    &:hover {
+        background-image: url(../img/korban2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #d36c53;
+        transition: 0.3s;
+    }
+}
+
+.menu2 {
+    background-image: url(../img/daging1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #2c2c2c;
+    background-position: center;
+    min-height: 600px;
+   
+
+    &:hover {
+        background-image: url(../img/daging2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #2c2c2c;
+        transition: 0.3s;
+    }
+}
+
+.menu3 {
+    background-image: url(../img/aqiqah1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #7cacaf;
+    background-position: center;
+    min-height: 600px;
+   
+
+    &:hover {
+        background-image: url(../img/aqiqah2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #7cacaf;
+        transition: 0.3s;
+    }
+}
